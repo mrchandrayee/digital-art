@@ -1,0 +1,23 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #fafafa;
+        }
+
+        .heart-svg {
+            width: 250px;
+            height: 250px;
+            overflow: visible;  
+        }
+
+        .heart-path {
+            fill: none;
+            stroke: #ff2a5f;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            filter: drop-shadow(0 0 5px #ff2a5f) drop-shadow(0 0 10px #ff2a5f); 
+        }
